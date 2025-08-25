@@ -107,3 +107,19 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+
+#ucapan {
+  display: inline-block;
+  text-decoration: none;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  padding: 8px 20px;
+  border-radius: 50px;
+  margin: 10px;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#ucapan:hover {
+  transform: scale(0.9);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
