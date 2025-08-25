@@ -3,12 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <!-- AOS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
     <title>surprise</title>
   </head>
   <body>
-    <section id="envelope">
+    <section
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+      data-aos-delay="900"
+      id="envelope"
+    >
       <div id="head-envelope">
         <button id="btn">❤</button>
       </div>
@@ -20,6 +30,12 @@
         </div>
       </div>
     </section>
+    <!-- script.js -->
     <script src="script.js"></script>
+    <!-- AOS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
